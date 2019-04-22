@@ -153,7 +153,7 @@ h2, h3, h4{
     padding: 0 18px;
     background-color: white;
     max-height: 0;
-	width: 85%;
+		width: 85%;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
@@ -432,4 +432,18 @@ th{
 
 .waiver a:active{
 	color: #9a7d0a;
+}
+
+p.smaller {
+	color: #fff;
+	font-size: 14px;
+}
+
+#walking-services h4 {
+	color: #d4ac0d;
+	margin-top: 1.5em;
+}
+
+#boarding-services h4 {
+	color: #d4ac0d;
 }
