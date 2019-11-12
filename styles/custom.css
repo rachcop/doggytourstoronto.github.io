@@ -7,6 +7,7 @@ html {
 	width: 100%;
 	margin: 0;
 }
+
 body{
 	min-height: 100%;
 	margin: 0;
@@ -16,7 +17,6 @@ body{
 h1, h2, h3, h4, h5{
 	font-family: 'Karma', serif;
 }
-
 
 h2 {
 	font-size: 3rem;
@@ -90,6 +90,42 @@ footer {
 
 /* CONTACT PAGE STYLING */
 
+.contact-details {
+	float: right;
+	padding-left: 4.5rem;
+}
+
+.contact-details h2 {
+	font-size: 4rem;
+	margin-bottom: 4rem;
+}
+
+.contact-details p strong {
+	font-size: 2.15rem;
+}
+
+.more-info {
+	margin-top: 5rem;
+}
+
+.more-info button {
+	background-color: #1B2631;
+	padding-top: 1rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.more-info button a {
+	font-size: 2.05rem;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	color: #f7dc6f;
+}
+
+
 /* MOBILE STYLING */
 
 @media only screen and (width: 320px) {
@@ -97,11 +133,6 @@ footer {
 		font-size: 6rem;
 	}
 
-	h2 {
-		font-size: 5rem;
-		padding-bottom: 6rem;
-	}
-	
 	p {
 		font-size: 4rem;
 	}
