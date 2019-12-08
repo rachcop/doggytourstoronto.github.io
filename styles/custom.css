@@ -117,12 +117,20 @@ footer {
 	margin-top: 1rem;
 }
 
+.more-info button:hover {
+	background-color: rgba(27, 38, 49, 0.9);
+}
+
 .more-info button a {
 	font-size: 2.05rem;
 	text-align: center;
 	font-weight: bold;
 	text-decoration: none;
 	color: #f7dc6f;
+}
+
+.more-info button a:hover {
+	color: #d4ac0d;
 }
 
 
