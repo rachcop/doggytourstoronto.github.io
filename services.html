@@ -3,13 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Services | Doggy Tours Toronto</title>
-	<link rel="stylesheet" href="styles/bootstrap.css" type="text/css" media="all">
-	<link rel="stylesheet" href="styles/custom.css" type="text/css" media="all">
-	<link href="https://fonts.googleapis.com/css?family=Assistant:200,600|Karma:300" rel="stylesheet">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
+	<link rel="stylesheet" href="styles/bootstrap.css" type="text/css" media="all">
+	<link rel="stylesheet" href="styles/custom.css" type="text/css" media="all">
+	<link href="https://fonts.googleapis.com/css?family=Assistant:200,600|Karma:300" rel="stylesheet">
 </head>
 
 <body>
@@ -33,16 +33,17 @@
 
 		<main>	
 			<div id="row main">
-				<div class="row col-xs-12 col-sm-12 col-md-6 col-lg-6 aboutus">
+				<div class="row col-xs-12 col-sm-12 col-md-5 col-lg-5 aboutus">
 					<h3>Service Areas</h3>
 					<p>Doggy Tours Toronto operates mainly in the downtown core, however, does service other locations in the Toronto area. <a href="contact.php">Contact us for more information.</a></p>
-					<p>See map below for downtown service areas.</p>
-					<img src="images/map.png" class="map" alt="map of downtown Toronto" title="Map of Doggy Tours Toronto dogwalking area">
+					<p>Use the the map below to see downtown service areas.</p>
+					<iframe src="https://www.google.com/maps/d/embed?mid=1N_d1UE1xifelX9EPwx_GnW3pCwV6wbWW" width="640" height="480"></iframe>
+
 					<div class="waiver">
-						<p><a href="doggy-tours-waiver.pdf" download>Download Waiver/Consent Form</a></p>
+						<button id="form-button" tabindex="0" role="button" aria-pressed="false"><a href="doggy-tours-waiver.pdf" title="Download Waiver/Consent form" download>Download Waiver/Consent Form</a></button>
 					</div>
 				</div><!--/.aboutus-->
-					
+
 				<div class="row col-xs-12 col-sm-12 col-md-5 col-lg-5 services">
 					<h3>Learn more</h3>
 				
@@ -64,9 +65,40 @@
 							<p class="touch">For more information on boarding services, or to book a meet and greet appointment, <a href="contact.html">Contact Us</a>.</p>
 						</div>
 					<p class="smaller">Prices subject to change. <br>Standard prices based on behavioural assessment and meet and greet. <br>Extra fees apply for services outside of service area boundaries.</p>
-					<img src="images/luna-ball.jpg" class="lunaball" alt="dog looking at ball" title="Our dog Luna watching a ball on the dock">
+					<img src="images/lola-jumping.jpg" class="services-image" alt="Lola jumping at ball" title="Lola jumping at a ball at the park">
 				</div><!--/.services-->
 			</div><!--/#main-->
+			
+			
+			<div class="row photo-gallery">
+				<div class="row col=xs-12 col-sm-12 col-md-12 col-lg-12 photo-gallery-text">
+					<h3>Adventures Around the City</h3>
+					<p>Check out some of our walking buddies below!</p>
+				</div><!--/.photo-gallery-text-->
+				<div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 photo-row">
+				
+					<div class="photo-column">
+						<img src="images/sascha.jpg" alt="Sascha (Pomeranian) standing in the fall leaves">
+						<img src="images/goose_rosie.jpg" alt="Goose (Labradoodle) and Rosie (English Spaniel) on the dock at in Muskoka">
+						<img src="images/darcy-lola-abby.jpg" alt="Darcy (Pulie), Lola (Staffy mix) and Abby (mix breed) out for a walk">
+					</div>
+					<div class="photo-column">
+						<img src="images/lola.jpg" alt="Lola (Staffy mix) enjoying the winter weather">
+						<img src="images/Tucker.jpg" alt="Tucker (Sheppard Lab mix)">
+						<img src="images/goose_blue_abby.jpg" alt="Goose (Labradoodle), Blue (Samoyed) and Abby (mixed breed) out for a walk">
+					</div>
+					<div class="photo-column">
+						<img src="images/abby-goose.jpg" alt="Abby (mixed breed) and Goose (Labradoodle) out for an adventure!">
+						<img src="images/luna-murray-jerry.jpg" alt="Luna (Samoyed), Murray (Sheepadoodle) and Jerry (mixed breed) having fun at the cottage!">
+						<img src="images/darcy.jpg" alt="Darcy (Pulie) in the vibrant fall leaves">
+					</div>
+					<div class="photo-column">
+						<img src="images/benny_goose.jpg" alt="Benny (breed) and Goose (Labradoodle) out for a walk">
+						<img src="images/blue_sascha_luna.jpg" alt="Blue (Samoyed), Sascha (Pomeranian) and Luna (Samoyed); Blue singing a song on a walk">
+						<img src="images/lol-luna.jpg" alt="Luna (Samoyed) and Lola (Staffy mix) ready to play at the park">
+					</div>
+				</div><!--/.photo-row-->
+			</div><!--#photo-gallery-->
 		</main>
 		
 		<footer>
@@ -75,7 +107,7 @@
 					<p>Doggy Tours Toronto 2019 &ensp;|&ensp; Website by: <a href="https://rachelcoppens.com/" title="Link opens in a new tab" alt="RachelCoppens.com link" target="_blank">Rachel Coppens</a></p>
 				</div>
 			</div><!---/#footer--->
-		</footer>
+		</footer>	
 
 	</div><!---/#container--->
 </body>

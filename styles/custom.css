@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 /* GLOBAL STYLING  */
 html {
 	min-height: 100%;
@@ -74,6 +73,7 @@ footer {
 	padding-bottom: 6rem;
 	text-align: center;
 	background-color: #f1f1f1;
+	clear: both;
 }
 
 /* HOME PAGE STYLING */
@@ -87,6 +87,14 @@ footer {
 }
 
 /* SERVICES PAGE STYLING */
+
+.services-image {
+	width: 75%;
+}
+
+.photo-gallery {
+	padding-left: 3rem;
+}
 
 /* CONTACT PAGE STYLING */
 
@@ -108,7 +116,8 @@ footer {
 	margin-top: 5rem;
 }
 
-.more-info button {
+.more-info button,
+.waiver button {
 	background-color: #1B2631;
 	padding-top: 1rem;
 	padding-left: 4rem;
@@ -117,11 +126,13 @@ footer {
 	margin-top: 1rem;
 }
 
-.more-info button:hover {
+.more-info button:hover,
+.waiver button:hover {
 	background-color: rgba(27, 38, 49, 0.9);
 }
 
-.more-info button a {
+.more-info button a,
+.waiver button a {
 	font-size: 2.05rem;
 	text-align: center;
 	font-weight: bold;
@@ -129,8 +140,44 @@ footer {
 	color: #f7dc6f;
 }
 
-.more-info button a:hover {
+.more-info button a:hover,
+.waiver button a:hover {
 	color: #d4ac0d;
+}
+
+.photo-row {
+  display: flex;
+	flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.photo-column {
+	flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.photo-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .photo-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .photo-column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 
