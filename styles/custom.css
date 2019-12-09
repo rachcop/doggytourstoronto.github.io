@@ -88,7 +88,11 @@ footer {
 
 /* SERVICES PAGE STYLING */
 
-.services-image {
+.services-details {
+	display: flex;
+}
+
+.services-image img {
 	width: 75%;
 }
 
@@ -117,7 +121,7 @@ footer {
 }
 
 .more-info button,
-.waiver button {
+	button {
 	background-color: #1B2631;
 	padding-top: 1rem;
 	padding-left: 4rem;
