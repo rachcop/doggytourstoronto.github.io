@@ -88,12 +88,31 @@ footer {
 
 /* SERVICES PAGE STYLING */
 
-.services-details {
+.services h3,
+.service-areas h3 {
+	margin-left: 10rem;
+}
+
+.our-services {
+	margin-left: 9.5rem;
+}
+
+.service-areas-details {
+	margin-left: 4rem;
+}
+
+.service-areas-details p {
+	width: 85%;
+}
+
+.services-image,
+.service-areas-map {
 	display: flex;
+	justify-content: flex-end;
 }
 
 .services-image img {
-	width: 75%;
+	width: 65%;
 }
 
 .photo-gallery {
